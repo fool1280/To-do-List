@@ -1,0 +1,89 @@
+html, body {
+    height: 100%;
+}
+
+body {
+	background-image: url("../img/note.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+    font-family: 'Jost', sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+.container {
+	background-color: white;
+    margin-top: 50px;
+    height: 70%;
+    width: 80%;
+    border: 5px solid black;
+}
+
+.toggle {
+    display: block;
+    margin-top: 10px;
+}
+
+.button {
+	border-radius:3px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:13px;
+	padding:6px 24px;
+	text-decoration:none;
+}
+.button:active {
+	position:relative;
+	top:1px;
+}
+
+
+.notDone {
+	box-shadow:inset 0px 1px 0px 0px #cf866c;
+	background:linear-gradient(to bottom, #d0451b 5%, #bc3315 100%);
+	background-color:#d0451b;
+	border:1px solid #942911;
+	
+	text-shadow:0px 1px 0px #854629;
+}
+.notDone:hover {
+	background:linear-gradient(to bottom, #bc3315 5%, #d0451b 100%);
+	background-color:#bc3315;
+}
+
+.done {
+	box-shadow:inset 0px 1px 0px 0px #9acc85;
+	background:linear-gradient(to bottom, #74ad5a 5%, #68a54b 100%);
+    background-color:#74ad5a;
+	border:1px solid #3b6e22;
+	text-shadow:0px 1px 0px #854629;
+}
+.done:hover {
+	background:linear-gradient(to bottom, #68a54b 5%, #74ad5a 100%);
+	background-color:#68a54b;
+}
+
+.todo {
+	box-shadow:inset 0px 1px 0px 0px #54a3f7;
+	background:linear-gradient(to bottom, #007dc1 5%, #0061a7 100%);
+	background-color:#007dc1;
+	border:1px solid #124d77;
+	text-shadow:0px 1px 0px #154682;
+}
+.todo:hover {
+	background:linear-gradient(to bottom, #0061a7 5%, #007dc1 100%);
+	background-color:#0061a7;
+}
+
+.restore {
+	box-shadow:inset 0px 1px 0px 0px #a6827e;
+	background:linear-gradient(to bottom, #7d5d3b 5%, #634b30 100%);
+	background-color:#7d5d3b;
+	border:1px solid #54381e;
+	text-shadow:0px 1px 0px #4d3534;
+}
+.restore:hover {
+	background:linear-gradient(to bottom, #634b30 5%, #7d5d3b 100%);
+	background-color:#634b30;
+}
